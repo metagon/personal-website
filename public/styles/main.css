@@ -1,0 +1,46 @@
+a {
+  color: #363636 !important;
+}
+
+.content ul {
+  margin-left: 1em !important;
+  margin-top: 0em !important;
+}
+
+hr.content-divider {
+  background-color: white;
+  max-width: 75px;
+  height: 5px;
+}
+
+#main {
+  background: url(/images/mamiya_80mm_hp5_012.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#education {
+  background: url(/images/mamiya_80mm_hp5_003.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#experience {
+  background: url(/images/mamiya_80mm_hp5_006.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact {
+  background: url(/images/mamiya_80mm_hp5_007.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
