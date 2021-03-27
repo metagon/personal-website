@@ -40,6 +40,21 @@
       <div class="columns">
         <div class="column is-one-third">
           <div class="block has-text-centered">
+            <span class="fas fa-drafting-compass fa-5x"></span>
+          </div>
+          <div class="block has-text-centered">
+            <h4 class="subtitle is-4">Software Design</h4>
+          </div>
+          <div class="block">
+            <p>
+              From conception to deployment and maintenance, I take joy in breaking down complex problems into simple
+              solutions. Ensuring quality, efficiency, reusability and maintainability is of highest importance to my
+              work.
+            </p>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="block has-text-centered">
             <span class="fas fa-server fa-5x"></span>
           </div>
           <div class="block has-text-centered">
@@ -47,7 +62,8 @@
           </div>
           <div class="block">
             <p>
-              Proficient use of the Java programming language in combination with the Spring Framework.
+              Proficient use of the Java programming language in combination with the Spring framework for developing
+              complex enterprise solutions.
             </p>
           </div>
         </div>
@@ -60,21 +76,81 @@
           </div>
           <div class="block">
             <p>
-              I excell at using React in combination with Redux for developing web applications.
-              Experienced in HTML and CSS but couldn't live without Bulma.
+              I excell at using React in combination with Redux for creating beautiful web applications. Experienced in
+              HTML and CSS but couldn't live without Bulma.
             </p>
           </div>
         </div>
-        <div class="column is-one-third">
-          <div class="block has-text-centered">
-            <span class="fas fa-drafting-compass fa-5x"></span>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="hero is-dark">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">Recent Projects</h1>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-half">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-16by9 mb-4">
+                <img src="/images/ithildin_logo.jpg" alt="Ithildin Logo" style="object-fit: cover;">
+              </figure>
+            </div>
           </div>
-          <div class="block has-text-centered">
-            <h4 class="subtitle is-4">Software Design</h4>
-          </div>
-          <div class="block">
+          <div class="content">
             <p>
-              Experienced in designing secure and robust software solutions.
+              Ithildin is a semantic analysis tool for EVM bytecode based on Mythril. By using symbolic execution and
+              taint analysis, it aims at detecting functions that are restricted by authentication patterns, and to
+              extract administrator addresses whenever possible, as well as other related data.
+            </p>
+            <p>
+              <span class="has-text-weight-bold">Technologies</span>: Python 3, Symbolic Execution, Taint Analysis
+            </p>
+            <p>
+              <span class="icon-text">
+                <span class="icon">
+                  <span class="fa fa-home"></span>
+                </span>
+                <span>
+                  <a class="no-color" href="https://github.com/metagon/ithildin">Homepage</a>
+                </span>
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="column is-half">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-16by9 mb-4">
+                <img src="/images/bohemia_logo.jpg" alt="Bohemia Luxury Living Logo" style="object-fit: cover;">
+              </figure>
+            </div>
+          </div>
+          <div class="content">
+            <p>
+              ProtonPMS is a lightweight, RESTful Property Management System (PMS). It features direct bookings,
+              payments with Stripe, HTML Email confirmations, property and room management, reservations and customer
+              management. The frontend was deployed on AWS using S3 and CloudFront, and the backend using Elastic
+              Beanstalk.
+            </p>
+            <p>
+              <span class="has-text-weight-bold">Technologies</span>: Java, Spring, JavaScript, React, Redux, HTML, CSS,
+              Bulma, PostgreSQL, REST, AWS, Stripe
+            </p>
+            <p>
+              <span class="icon-text">
+                <span class="icon">
+                  <span class="fa fa-home"></span>
+                </span>
+                <span>
+                  <a class="no-color" href="https://bohemia-luxuryliving.com">Homepage</a>
+                </span>
+              </span>
             </p>
           </div>
         </div>
@@ -273,47 +349,49 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section id="contact" class="hero is-dark">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title">Contact</h1>
-      </div>
-    </div>
-  </section>
-  <section class="section">
-    <div class="container">
       <div class="columns is-centered">
-        <div class="column is-one-third">
-          <div class="block has-text-centered">
-            <span class="fas fa-envelope fa-5x"></span>
-          </div>
-          <div class="block has-text-centered">
-            <h4 class="subtitle is-4">
-              <a href="mailto:philippos@gorgoris.com">philippos@gorgoris.com</a>
-            </h4>
-          </div>
-        </div>
-        <div class="column is-one-third">
-          <div class="block has-text-centered">
-            <span class="fas fa-file-pdf fa-5x"></span>
-          </div>
-          <div class="block has-text-centered">
-            <h4 class="subtitle is-4">
-              <a href="https://raw.githubusercontent.com/metagon/curriculum-vitae/master/resume_cv.pdf">Download my
-                Résumé</a>
-            </h4>
-          </div>
+        <div class="column is-one-fourth">
+          <a class="button is-dark is-large"
+            href="https://raw.githubusercontent.com/metagon/curriculum-vitae/master/resume_cv.pdf">
+            <span class="icon">
+              <span class="fas fa-file-pdf"></span>
+            </span>
+            <span>Download my Résumé</span>
+          </a>
         </div>
       </div>
     </div>
   </section>
   <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        Copyright &copy; 2021 Philippos Gorgoris. All rights reserved.
-      </p>
+    <div class="container">
+      <div class="block">
+        <p class="is-size-5">
+          <span class="icon-text">
+            <span class="icon">
+              <span class="fas fa-envelope"></span>
+            </span>
+            <span><a class="no-color" href="mailto:philippos@gorgoris.com">philippos@gorgoris.com</a></span>
+          </span>
+        </p>
+        <p class="is-size-5">
+          <span class="icon-text">
+            <span class="icon">
+              <span class="fab fa-github"></span>
+            </span>
+            <span><a class="no-color" href="https://github.com/metagon">metagon</a></span>
+          </span>
+        </p>
+      </div>
+      <div class="block">
+        <p>
+          Copyright &copy; 2021 Philippos Gorgoris. All rights reserved.
+        </p>
+        <p>
+          The
+          <a class="no-color has-text-weight-bold" href="https://thehutt.de/tolkien/fonts/aniron/readme.html">Aniron</a>
+          font used for the Ithildin logo is Copyright &copy; 2004 Pete Klassen. All rights reserved.
+        </p>
+      </div>
     </div>
   </footer>
 </body>

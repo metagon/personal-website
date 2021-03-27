@@ -1,4 +1,4 @@
-a {
+a.no-color {
   color: #363636 !important;
 }
 
@@ -14,7 +14,16 @@ hr.content-divider {
 }
 
 #main {
-  background-image: url(/images/mamiya_80mm_hp5_012.jpg);
+  background: url(/images/mamiya_80mm_hp5_012.jpg) rgba(0, 0, 0, 0.5);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+#projects {
+  background-image: url(/images/mamiya_80mm_hp5_007.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,17 +46,10 @@ hr.content-divider {
   background-size: cover;
 }
 
-#contact {
-  background-image: url(/images/mamiya_80mm_hp5_007.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
-  #main, #education, #experience, #contact {
+/* Turn off parallax scrolling for all tablets and phones. */
+@media only screen and (max-device-width: 1023px) {
+  #main, #projects, #education, #experience {
     background-attachment: scroll;
   }
 }
