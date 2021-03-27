@@ -8,7 +8,7 @@
     ],
     "headers": [
       {
-        "source": "public/**/*.@(jpg|ico|js|css)",
+        "source": "**/*.@(jpg|ico|js|css)",
         "headers": [
           {
             "key": "Cache-Control",
