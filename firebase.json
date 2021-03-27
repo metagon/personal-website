@@ -9,7 +9,7 @@
     "headers": [
       {
         "source": "public/**/*.@(jpg|ico|js|css)",
-        "key": "Cache-Control",
+        "name": "Cache-Control",
         "value": "max-age=86400"
       }
     ]
