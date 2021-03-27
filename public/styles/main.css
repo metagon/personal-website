@@ -14,7 +14,7 @@ hr.content-divider {
 }
 
 #main {
-  background: url(/images/mamiya_80mm_hp5_012.jpg);
+  background-image: url(/images/mamiya_80mm_hp5_012.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@ hr.content-divider {
 }
 
 #education {
-  background: url(/images/mamiya_80mm_hp5_003.jpg);
+  background-image: url(/images/mamiya_80mm_hp5_003.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@ hr.content-divider {
 }
 
 #experience {
-  background: url(/images/mamiya_80mm_hp5_006.jpg);
+  background-image: url(/images/mamiya_80mm_hp5_006.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -38,9 +38,16 @@ hr.content-divider {
 }
 
 #contact {
-  background: url(/images/mamiya_80mm_hp5_007.jpg);
+  background-image: url(/images/mamiya_80mm_hp5_007.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  #main, #education, #experience, #contact {
+    background-attachment: scroll;
+  }
 }
