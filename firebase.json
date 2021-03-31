@@ -8,11 +8,20 @@
     ],
     "headers": [
       {
-        "source": "**/*.@(jpg|ico|js|css)",
+        "source": "**/*.@(jpg|jpeg|ico)",
         "headers": [
           {
             "key": "Cache-Control",
-            "value": "max-age=86400"
+            "value": "max-age=2592000"
+          }
+        ]
+      },
+      {
+        "source": "**/@(bulma.min.css|fa-all.min.js)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=2592000"
           }
         ]
       }
